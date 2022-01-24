@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-a-sketch</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Space+Mono">
+    <script src = "main.js" defer></script>
+</head>
+<body>
+    <h1>Etch a sketch</h1>
+    <div class="content">
+        <div class="buttons">
+            <button id="eraser">Eraser</button> 
+            <button id="black">Black</button>
+            <button id="random-color">Pastel Colors</button>
+            <div class="colorAndPrompt">
+                <input type="color" id="color">
+                <p>choose a color</p>
+            </div>
+            <input type="range" min="4" max="100" value="15" id="sizeRange" class="slider"> 
+            <span>Value: <span id="demo"></span></span>
+        </div>  
+        <div id="container"></div>
+    </div>
+    <footer class="footer">Made by <a href=https://github.com/phungo-hub> 
+        <img id="gh-logo" src="github-logo.png" atl="gh logo"/>Phu Ngo</a></div><footer>
+</body>
+</html>
